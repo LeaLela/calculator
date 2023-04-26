@@ -1,0 +1,20 @@
+table, th, td {
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.result, .unos{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    max-width: 245px;
+    text-align: right;
+    font-size: 24px;
+    min-height: 35px;
+}
