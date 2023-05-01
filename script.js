@@ -30,9 +30,6 @@ function doCalculation(){
 
 document.querySelectorAll('button').forEach(item => {
     item.addEventListener('click', event =>{
-        if(rezultat.innerText.lengt > 0){
-            return;
-        }
         if(item.value === '='){
             doCalculation();
         } else if(item.value === 'del'){
